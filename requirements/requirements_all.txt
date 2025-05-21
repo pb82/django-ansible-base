@@ -25,7 +25,7 @@ defusedxml==0.8.0rc2
     # via
     #   python3-openid
     #   social-auth-core
-django==4.2.17
+django==5.2rc1
     # via
     #   -r requirements/requirements.in
     #   channels
@@ -145,7 +145,9 @@ six==1.17.0
 social-auth-app-django==5.4.1
     # via -r requirements/requirements_authentication.in
 social-auth-core==4.5.4
-    # via social-auth-app-django
+    # via
+    #   -r requirements/requirements_authentication.in
+    #   social-auth-app-django
 sqlparse==0.5.2
     # via
     #   -r requirements/requirements.in
